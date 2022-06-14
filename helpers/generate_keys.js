@@ -1,4 +1,3 @@
 const crypto = require("crypto");
 
-const key1 = crypto.randomBytes(32);
-console.log(key1);
+const key1 = crypto.randomBytes(32).toString("hex");
